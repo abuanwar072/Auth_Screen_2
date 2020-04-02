@@ -35,7 +35,7 @@ class WelcomeScreen extends StatelessWidget {
         children: <Widget>[
           Expanded(
             flex: 5,
-            child: backgroundImage(),
+            child: backgroundImageWithText(),
           ),
           Expanded(
             child: Padding(
